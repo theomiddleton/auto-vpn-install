@@ -1,6 +1,6 @@
 #!/bin/sh
 git clone https://github.com/trailofbits/algo.git
-sed -i '12i \  - one\n  - two\n  - three' ./algo/config.cfg
+sed -i '12i \  - one\n  - two\n  - three\n  - four\n  - five\n  - six\n  - seven\n  - eight\n  - nine\n  - ten' ./algo/config.cfg
 sed -i 's/no_log: true/no_log: false/g' ./algo/config.cfg
 cd algo
 sudo apt install -y --no-install-recommends python3-virtualenv
